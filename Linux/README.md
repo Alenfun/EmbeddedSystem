@@ -10,5 +10,5 @@
 
 Ubuntu中安装交叉开发环境
 
-* [gcc-arm-none-eabi](Linux/gcc-arm-none-eabi.md)
+* [gcc-arm-none-eabi](gcc-arm-none-eabi.md)
 
