@@ -6,39 +6,39 @@
 
 - 创建name的分支，并切换过去
 ```sh
-      git checkout -b name
+git checkout -b name
 ```
 - 拉取远程分支，创建并切换到这个分支
 ```sh
-      git checkout -b name origin/remote-branch
-      git checkout -b 本地分支名 origin/远程分支名
+git checkout -b name origin/remote-branch
+git checkout -b 本地分支名 origin/远程分支名
 ```
 - 查看所有分支
 ```sh
-      git branch -v
+git branch -v
 ```
 - 关联远程分支
 
 ```sh
-      git branch --set-upstream name origin/name
+git branch --set-upstream name origin/name
 ```
 - 删除分支
 ```sh
-      git branch -d name
-      git branch -D name
+git branch -d name
+git branch -D name
 ```
 - 合并到master
 ```sh
-      git checkout master
-      git merge name
+git checkout master
+git merge name
 ```
 - 暂存所有更改到本地分支
 ```sh
-      git stash
+git stash
 ```
 - 恢复
 ```sh
-      git stash pop
+git stash pop
 ```
 - Git 推本地 master 到远端非 master 分支
 ```sh
