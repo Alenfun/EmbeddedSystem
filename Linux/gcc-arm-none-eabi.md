@@ -12,27 +12,37 @@ https://launchpad.net/gcc-arm-embedded/+download 中下载所需的代码
 
 通过解压缩命令
 
-```tar -jxvf gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2```
+```
+	tar -jxvf gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2
+```
 
 ### 三 添加环境变量
 
 * 使用命令：
 
-```vim /etc/environment ```
+```
+	vim /etc/environment
+```
 
 编辑.bashrc文件，添加环境变量。
 
 * 在该文件中PATH最后添加：
 
-```:/home/xxx/gcc-arm-none-eabi-7-2018-q2-update/bin```
+```
+	:/home/xxx/gcc-arm-none-eabi-7-2018-q2-update/bin
+```
 
 * 最后使配置文件生效： 
 
-```source /etc/environment```
+```
+	source /etc/environment
+```
 
 * 查看环境变量是否设置成功：
 
-```$PATH```
+```
+	$PATH
+```
 
 ![img](assets/gcc-arm-none-eabi-01.png)
 
