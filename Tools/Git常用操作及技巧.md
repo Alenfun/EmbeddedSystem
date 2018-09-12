@@ -30,15 +30,7 @@ git branch -D name
 - 合并到master
 ```sh
 git checkout master
-git merge name
-```
-- 暂存所有更改到本地分支
-```sh
-git stash
-```
-- 恢复
-```sh
-git stash pop
+git merge name [-m "msg"]
 ```
 - Git 推本地 master 到远端非 master 分支
 ```sh
@@ -125,4 +117,40 @@ git rm --cached hello
 ## 五、GIT与远程REPOSITORY同步TAG和BRANCH
 
 参考如下地址：http://smilejay.com/2013/04/git-sync-tag-and-branch-with-remote/
+
+## 六、 缓存区
+- 暂存所有更改到本地分支
+```sh
+git stash
+```
+- 恢复
+```sh
+git stash pop
+```
+
+- 查看现有stash
+
+```sh
+git stash list
+```
+
+- 移除stash
+
+```sh
+git stash drop
+```
+
+```sh
+$ git stash list
+stash@{0}: WIP on master: 049d078 added the index file
+stash@{1}: WIP on master: c264051 Revert "added file_size"
+$ git stash drop stash@{0}
+Dropped stash@{0} (364e91f3f268f0900bc3ee613f9f733e82aaed43)
+```
+
+- 查看指定stash的diff
+
+```sh
+git stash show
+```
 

@@ -11,7 +11,7 @@
 
 * [MCU](MCU/)
 * [RTOS](RTOS/)
-* [Linux_OS](Linux_OS/)
+* [Linux](Linux/)
 * [DataStructure](DataStructure/)
 * [Algorithm](Algorithm/)
 * [IoT](IoT/)
