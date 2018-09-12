@@ -7,6 +7,7 @@
 - 和 Git 配合使用的对比工具：[Beyond Compare](https://www.scootersoftware.com/download.php)，界面简洁，功能强大
 - 非常好用的本地 MarkDown 编辑器：[Typora](https://www.typora.io/)，支持 md 格式向各种格式的轻松转换
 - 云端 MarkDown 编辑器：[Cmd MarkDown](https://www.zybuluo.com/mdeditor)，云端保存和搜索功能十分强大
+- 代码编辑器：[Sublime](Sublime.md)，跨平台代码编辑器，支持命令行环境和图形界面环境
 - 代码格式化小工具：Astyle，可以将[ Astyle 集成到 Keil 中进行代码格式化](https://jingyan.baidu.com/article/f3e34a12d7d6e5f5eb6535c5.html)，非常方便
 - 非常简洁好用的录屏软件：[Camtasia 9](https://www.isharepc.com/1884.html)
 - 速度最快的文件搜索软件：[Everything](http://www.pc6.com/softview/SoftView_53886.html)

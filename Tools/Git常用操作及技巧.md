@@ -151,6 +151,6 @@ Dropped stash@{0} (364e91f3f268f0900bc3ee613f9f733e82aaed43)
 - 查看指定stash的diff
 
 ```sh
-git stash show
+git stash show 
 ```
 
